@@ -1,0 +1,21 @@
+\subsection{Definición}
+VoIP es un acrónimo que viene de: \textit{\textbf{V}oice \textbf{o}ver \textbf{I}nternet \textbf{P}rotocol}, que significa: ``voz sobre IP''. Es un término que se usa para identificar a todos aquellos métodos que sirven para proveer servicios telefónicos a través de la Internet.\cite{voip:whatis}
+
+Es importante notar que VoIP no es un protocolo, ni un método; VoIP no define la forma en la que una persona usa servicios telefónicos a través de la Internet, es solo un término usado para identificar a ese conjunto de métodos que hacen este servicio posible.\cite{voip:rfc}
+
+Sin embargo, se pueden identificar 3 métodos principales para realizar VoIP:
+
+\begin{itemize}
+\item \textbf{ATA:} (Analogue Terminal Adapter) Es una especie de router que usa para conectar teléfonos analógicos (como los usados para realizar llamadas por linea fija en los planes de COTEL).\cite{voip:ata}
+\item \textbf{IP Phone:} Es un teléfono especial, que a simple vista, parece un teléfono normal, pero tiene un puerto Ethernet, mediante el cuál se conecta a un servidor VoIP, que hace posible una llamada por Internet.
+\item \textbf{\textit{softphone:}} Las llamadas se realizan mediante software. Se pretende que un dispositivo inteligente (como una computadora, o un smartphone) imite la función de un PSTN (\textit{Public Switched Telephone Network}, que es el término usado para identificar un teléfono tradicional).
+\end{itemize}
+
+Todos estos métodos pueden ser integrados con PSTN, sin embargo, esta integración no es requisito indispensable de VoIP. Telegram, Lime y Whatsapp es un softphone que permite VoIP, por ejemplo. 
+
+\subsection{Protocolos}
+
+Todo método para realizar VoIP, requiere de un protocolo. Una de las funciones de este protocolo es traducir las señales analógicas telefónicas en señales digitales que puedan ser transferidas mediante el internet.
+
+Existe una gran variedad de protocolos, muchos de ellos permiten la comunicación encriptada. Entre ellos, está SIP: Session Initiation Protocol, que es un protocolo para llevar a cabo \textit{sesiones} con uno o más participantes. Estas incluyen llamadas telefónicas por internet, distribución multimedia y conferencias multimedia.\cite{rfc:sip}
+

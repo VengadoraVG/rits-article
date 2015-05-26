@@ -1,0 +1,66 @@
+% based on the ACM article example, extracted from here: https://www.acm.org/sigs/publications/proceedings-templates
+\documentclass{acm_proc_article-sp}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphics}
+\usepackage{listings}
+\usepackage{listingsutf8}
+\usepackage{setspace}
+\usepackage{xcolor}
+\lstset{inputencoding=utf8/latin1}
+
+\begin{document}
+
+\title{VOIP}
+\subtitle{El encuentro de un sistema anticuado con su mayor némesis}
+\numberofauthors{1}
+
+\author{
+  \alignauthor
+  García Ruth\\
+  \affaddr{Universidad Mayor de San Andrés}\\
+  \affaddr{Carrera de Informática}\\
+  \email{vengadoravg@gmail.com}
+}
+\date{\today}
+
+\maketitle
+\begin{abstract}
+\input{abstract}
+\end{abstract}
+
+\keywords{VoIP, surveillance, restricción, regulación, llamadas gratis}
+
+\section{Introduction}
+\input{introduction}
+
+\section{Funcionamiento}
+\input{funcionamiento}
+
+\section{Restricciones y Regulaciones}
+\input{restricciones}
+%
+% The following two commands are all you need in the
+% initial runs of your .tex file to
+% produce the bibliography for the citations in your paper.
+\bibliographystyle{abbrv}
+\bibliography{RMG-207665722}  % sigproc.bib is the name of the Bibliography in this case
+% You must have a proper ".bib" file
+%  and remember to run:
+% latex bibtex latex latex
+% to resolve all references
+%
+% ACM needs 'a single self-contained file'!
+%
+%APPENDICES are optional
+
+\balancecolumns
+% That's all folks!
+\end{document}
